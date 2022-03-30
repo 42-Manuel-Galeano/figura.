@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figura</title>
+</head>
+<body>
+    <svg width="400" height="400" style="border: 1px solid black">
+
+        <defs>
+            <linearGradient id="grad1" x1="50%" y1="0%" x2="50%" y2="80%">
+              <stop offset="0" stop-color="#43DFB1"/>
+             <stop offset="0.1" stop-color="#43DFB1"/>
+              <stop offset="0.7" stop-color="#0774DD"/>
+              <stop offset="0.8" stop-color="#A9AE78"/>
+              <stop offset="1" stop-color="white"/>     
+              
+            </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="400" height="400" fill="url(#grad1)"></rect>
+        <image xlink: href="bob.gif" x="50" y="100" width="70%" height="70%"/> 
+        <image xlink: href="calamardo.gif" x="1" y="150" width="40%" height="40%"/> 
+        <image xlink: href="papa.gif" x="150" y="100" width="70%" height="60%"/> 
+
+        <g style="font: italic 2.9em arial;fill: yellow" stroke="yellow" stroke-width=" 1px;" align="center">
+            <text x="60" y="50">Bob Esponja</text>
+        </g>
+        <g style="font: italic 1.9em arial;fill: rgb(113, 243, 109)" stroke="rgb(113,243, 109)" stroke-width=" 1px;" align="center">
+            <text x="95" y="100">y sus amigos</text>
+        </g>
+    </svg>
+</body>
+</html>
